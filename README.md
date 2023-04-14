@@ -1,7 +1,5 @@
 # The Gateway to Credential-Weighted Voting in Snapshot
 
-USD 4,000
-
 Goal
 Enable Gateway credentials in Snapshot voting strategies
 Gateway is a protocol for issuing and managing verifiable credentials. Pocket Network plans to use Gateway for the next generation of our proof-of-participation governance model. A key building block for this is enabling Gateway credentials to be weighted in Snapshot strategies. This integration will enable Pocket Network to level up the UX of our governance model and make it easy for any DAO to emulate our approach.
@@ -25,9 +23,9 @@ Gateway is a protocol for issuing and managing verifiable credentials. Pocket Ne
 
 ## Resources
 
-Gateway docs
-Snapshot docs
-Snapshot voting strategies
+[Gateway docs](https://docs.mygateway.xyz/docs/why-do-credentials-matter)
+[Snapshot docs](https://docs.snapshot.org/developer-guides/create)
+[Snapshot voting strategies](https://docs.snapshot.org/developer-guides/create-a-strategy)
 Point of contact
 Sanket Jain — CEO MyGateway
 
