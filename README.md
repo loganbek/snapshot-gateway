@@ -6,8 +6,8 @@ Gateway is a protocol for issuing and managing verifiable credentials. Pocket Ne
 
 ## Requirements
 
-- [ ] The developer will be responsible for:
-- [ ] Researching and understanding the Gateway API
+The developer will be responsible for:
+- [x] Researching and understanding the Gateway API
 - [ ] Implementing the Gateway API into the Snapshot Voting Module
 - [ ] Testing and debugging the integration
 - [ ] Providing documentation on how to use the Snapshot integration
@@ -42,3 +42,12 @@ Sanket Jain — CEO MyGateway
 - [ ] Documentation (auto-generate)
 - [ ] The UI fetches all of the latest credentials to make it easier for the user to search and add credentials to the strategy. You need to allow admins of the strategy to search and filter by “IssuerID” and then more specifically “DataModel ID”. This will read those credentials that have been issued by that particular organization using that specific Data Model.
 
+## Dev
+
+- [ ] create voting strategy in snapshot-js/snapshot-strategies following https://docs.snapshot.org/developer-guides/create-a-strategy/create-1 + https://docs.snapshot.org/user-guides/strategies/what-is-a-strategy.
+- [ ] create validation strategy in snapshot-js/snapshot-strategies following https://docs.snapshot.org/developer-guides/create-a-strategy/create-1-1 + https://docs.snapshot.org/user-guides/strategies/what-is-a-strategy-1.
+- [ ] add tests.
+- [ ] snapshot-js/snapshot-strategies pull request
+- [ ] test in playground.
+  - [ ] You need to allow admins of the strategy to search and filter by “IssuerID” and then more specifically “DataModel ID”. This will read those credentials that have been issued by that particular organization using that specific Data Model.
+- [ ] documentation
