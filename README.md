@@ -45,8 +45,26 @@ Sanket Jain — CEO MyGateway
 ## Dev
 
 - [ ] create voting strategy in snapshot-js/snapshot-strategies following https://docs.snapshot.org/developer-guides/create-a-strategy/create-1 + https://docs.snapshot.org/user-guides/strategies/what-is-a-strategy.
+  - [x] fork snapshot-strategies
+  - [ ] duplicate erc20-balance-of + rename - gateway-credential-weighted
+    - [ ] index.ts
+    - [ ] schema.json
+    - [ ] examples.json
+    - [ ] README.md
+    - [ ] TEST locally - 'npm run test --strategy=gateway-credential-weighted
+    - [ ] Test strategy with different parameters
+      - [ ] Change values inside test/scores.ts and run `ts-node test/scores.ts`
+      - [ ] https://github.com/snapshot-labs/snapshot-strategies#checklist-for-adding-a-new-strategy
+    - [ ] PR - can take up to 72 hours 
 - [ ] create validation strategy in snapshot-js/snapshot-strategies following https://docs.snapshot.org/developer-guides/create-a-strategy/create-1-1 + https://docs.snapshot.org/user-guides/strategies/what-is-a-strategy-1.
-- [ ] add tests.
+  - [ ] create a copy of basic strategy and rename gateway-credential-weighted
+  - [ ] idnex.ts -> validationClasses variable
+  - [ ] `nm run test --strategy=gateway-credential-weighted`
+  - [ ]  - [ ] Test strategy with different parameters
+      - [ ] Change values inside test/scores.ts and run `ts-node test/scores.ts`
+      - [ ] https://github.com/snapshot-labs/snapshot-strategies#checklist-for-adding-a-new-strategy
+
+FINISHED:
 - [ ] snapshot-js/snapshot-strategies pull request
 - [ ] test in playground.
   - [ ] You need to allow admins of the strategy to search and filter by “IssuerID” and then more specifically “DataModel ID”. This will read those credentials that have been issued by that particular organization using that specific Data Model.
