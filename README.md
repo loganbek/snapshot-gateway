@@ -7,7 +7,7 @@ Gateway is a protocol for issuing and managing verifiable credentials. Pocket Ne
 ## Requirements
 
 The developer will be responsible for:
-- [x] Researching and understanding the Gateway API
+Researching and understanding the Gateway API
 - [ ] Implementing the Gateway API into the Snapshot Voting Module
 - [ ] Testing and debugging the integration
 - [ ] Providing documentation on how to use the Snapshot integration
@@ -46,20 +46,20 @@ Sanket Jain — CEO MyGateway
 
 - [ ] create voting strategy in snapshot-js/snapshot-strategies following https://docs.snapshot.org/developer-guides/create-a-strategy/create-1 + https://docs.snapshot.org/user-guides/strategies/what-is-a-strategy.
   - [x] fork snapshot-strategies
-  - [ ] duplicate erc20-balance-of + rename - gateway-credential-weighted
+  - [ ] duplicate erc20-balance-of + rename - gateway-weighted-credentials
     - [ ] index.ts
     - [ ] schema.json
     - [ ] examples.json
     - [ ] README.md
-    - [ ] TEST locally - 'npm run test --strategy=gateway-credential-weighted
+    - [ ] TEST locally - 'npm run test --strategy=gateway-weighted-credentials
     - [ ] Test strategy with different parameters
       - [ ] Change values inside test/scores.ts and run `ts-node test/scores.ts`
       - [ ] https://github.com/snapshot-labs/snapshot-strategies#checklist-for-adding-a-new-strategy
     - [ ] PR - can take up to 72 hours 
 - [ ] create validation strategy in snapshot-js/snapshot-strategies following https://docs.snapshot.org/developer-guides/create-a-strategy/create-1-1 + https://docs.snapshot.org/user-guides/strategies/what-is-a-strategy-1.
-  - [ ] create a copy of basic strategy and rename gateway-credential-weighted
+  - [ ] create a copy of basic strategy and rename gateway-weighted-credentials
   - [ ] idnex.ts -> validationClasses variable
-  - [ ] `nm run test --strategy=gateway-credential-weighted`
+  - [ ] `nm run test --strategy=gateway-weighted-credentials`
   - [ ]  - [ ] Test strategy with different parameters
       - [ ] Change values inside test/scores.ts and run `ts-node test/scores.ts`
       - [ ] https://github.com/snapshot-labs/snapshot-strategies#checklist-for-adding-a-new-strategy
