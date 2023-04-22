@@ -44,12 +44,12 @@ Sanket Jain — CEO MyGateway
 
 ## Dev
 
-- [ ] create voting strategy in snapshot-js/snapshot-strategies following https://docs.snapshot.org/developer-guides/create-a-strategy/create-1 + https://docs.snapshot.org/user-guides/strategies/what-is-a-strategy.
+- [x] create voting strategy in snapshot-js/snapshot-strategies following https://docs.snapshot.org/developer-guides/create-a-strategy/create-1 + https://docs.snapshot.org/user-guides/strategies/what-is-a-strategy.
   - [x] fork snapshot-strategies
   - [ ] duplicate erc20-balance-of + rename - gateway-weighted-credentials
-    - [ ] index.ts
-    - [ ] schema.json
-    - [ ] examples.json
+    - [x] index.ts
+    - [x] schema.json
+    - [x] examples.json
     - [ ] README.md
     - [ ] TEST locally - 'npm run test --strategy=gateway-weighted-credentials
     - [ ] Test strategy with different parameters
