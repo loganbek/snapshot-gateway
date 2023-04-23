@@ -1,13 +1,16 @@
 # The Gateway to Credential-Weighted Voting in Snapshot
 
-Goal
-Enable Gateway credentials in Snapshot voting strategies
+## Goal
+
+### Enable Gateway credentials in Snapshot voting strategies
+
 Gateway is a protocol for issuing and managing verifiable credentials. Pocket Network plans to use Gateway for the next generation of our proof-of-participation governance model. A key building block for this is enabling Gateway credentials to be weighted in Snapshot strategies. This integration will enable Pocket Network to level up the UX of our governance model and make it easy for any DAO to emulate our approach.
 
 ## Requirements
 
 The developer will be responsible for:
 Researching and understanding the Gateway API
+
 - [ ] Implementing the Gateway API into the Snapshot Voting Module
 - [ ] Testing and debugging the integration
 - [ ] Providing documentation on how to use the Snapshot integration
@@ -44,7 +47,7 @@ Sanket Jain — CEO MyGateway
 
 ## Dev
 
-- [x] create voting strategy in snapshot-js/snapshot-strategies following https://docs.snapshot.org/developer-guides/create-a-strategy/create-1 + https://docs.snapshot.org/user-guides/strategies/what-is-a-strategy.
+- [ ] create voting strategy in snapshot-js/snapshot-strategies following <https://docs.snapshot.org/developer-guides/create-a-strategy/create-1> + <https://docs.snapshot.org/user-guides/strategies/what-is-a-strategy>.
   - [x] fork snapshot-strategies
   - [ ] duplicate erc20-balance-of + rename - gateway-weighted-credentials
     - [x] index.ts
@@ -54,17 +57,18 @@ Sanket Jain — CEO MyGateway
     - [ ] TEST locally - 'npm run test --strategy=gateway-weighted-credentials
     - [ ] Test strategy with different parameters
       - [ ] Change values inside test/scores.ts and run `ts-node test/scores.ts`
-      - [ ] https://github.com/snapshot-labs/snapshot-strategies#checklist-for-adding-a-new-strategy
-    - [ ] PR - can take up to 72 hours 
-- [ ] create validation strategy in snapshot-js/snapshot-strategies following https://docs.snapshot.org/developer-guides/create-a-strategy/create-1-1 + https://docs.snapshot.org/user-guides/strategies/what-is-a-strategy-1.
+      - [ ] <https://github.com/snapshot-labs/snapshot-strategies#checklist-for-adding-a-new-strategy>
+    - [ ] PR - can take up to 72 hours
+- [ ] create validation strategy in snapshot-js/snapshot-strategies following <https://docs.snapshot.org/developer-guides/create-a-strategy/create-1-1> + <https://docs.snapshot.org/user-guides/strategies/what-is-a-strategy-1>.
   - [ ] create a copy of basic strategy and rename gateway-weighted-credentials
   - [ ] idnex.ts -> validationClasses variable
   - [ ] `nm run test --strategy=gateway-weighted-credentials`
-  - [ ]  - [ ] Test strategy with different parameters
-      - [ ] Change values inside test/scores.ts and run `ts-node test/scores.ts`
-      - [ ] https://github.com/snapshot-labs/snapshot-strategies#checklist-for-adding-a-new-strategy
+  - [ ] - [ ] Test strategy with different parameters
+    - [ ] Change values inside test/scores.ts and run `ts-node test/scores.ts`
+    - [ ] <https://github.com/snapshot-labs/snapshot-strategies#checklist-for-adding-a-new-strategy>
 
 FINISHED:
+
 - [ ] snapshot-js/snapshot-strategies pull request
 - [ ] test in playground.
   - [ ] You need to allow admins of the strategy to search and filter by “IssuerID” and then more specifically “DataModel ID”. This will read those credentials that have been issued by that particular organization using that specific Data Model.
