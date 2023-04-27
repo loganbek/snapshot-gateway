@@ -61,7 +61,7 @@ Sanket Jain — CEO MyGateway
     - [ ] PR - can take up to 72 hours
 - [ ] create validation strategy in snapshot-js/snapshot-strategies following <https://docs.snapshot.org/developer-guides/create-a-strategy/create-1-1> + <https://docs.snapshot.org/user-guides/strategies/what-is-a-strategy-1>.
   - [ ] create a copy of basic strategy and rename gateway-weighted-credentials
-  - [ ] idnex.ts -> validationClasses variable
+  - [ ] index.ts -> validationClasses variable
   - [ ] `nm run test --strategy=gateway-weighted-credentials`
   - [ ] - [ ] Test strategy with different parameters
     - [ ] Change values inside test/scores.ts and run `ts-node test/scores.ts`
